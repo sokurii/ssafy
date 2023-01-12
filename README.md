@@ -145,14 +145,22 @@ if a >= 20:
 
 1. git init
 
-2. git add 파일명 (아마도?)
+2. **git add** README.md(파일명)  
 
-3. 주소는 사실 한 번 만 설정해도 되는데 필요하면 구글링 하자?
+   : 폴더의 경우는 폴더명 뒤 **/** 사용
 
-4. git commit ( 이상한 화면 이 뜬ㄷ ㅏ)
+3. git status (상태 확인)
 
-5. i (insert) + 할 말 +  esc + :wq
+4. **git commit** ( 초록 글씨 이상한 화면 이 뜬ㄷ ㅏ)
 
-6. git push 
+5. i (INSERT) + 업로드 할 제목 입력 +  esc + :wq
+
+6. **git push** 
+
+   : git remote add <name> <url> ➡ remote add orgin https://github.com/sokurii/ssafy.git
+
+   : git push --set-upstream orgin master (처음 올릴 때)
+
+   
 
    
